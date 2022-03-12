@@ -3,7 +3,7 @@
 <head>
 
      <meta name="google-site-verification" content="uG1_OQLMGthMACTIZSQgW9fp1nnz1qps9h5uV4wp07g" />
-    <link rel="canonical" href="https://nerdwhocodes.com/post/razorpay-nodejs-integration" />
+    <link rel="canonical" href="https://nerdwhocodes.com/post/flutter-weather-app" />
   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -297,14 +297,14 @@
     <title>
         <%=title%>
     </title>
-    <meta name="description" content="how to integrate razorpay with node js.!">
+    <meta name="description" content="learn how to create a weather app with flutter!">
 
 
     <meta property="og:type" content="article">
-    <meta property="og:title" content="razorpay-node-js-integration">
+    <meta property="og:title" content="flutter-weather-app">
     <meta property="og:description"
-        content="if you want to integrate razorpay with your node js app/website , here is a simple way to do it !">
-    <meta property="og:url" content="blogUrl">
+        content="learn how to create a weather app using flutter">
+    <meta property="og:url" content="https://nerdwhocodes.com/post/flutter-weather-app">
     <link rel="stylesheet" id="wp-block-library-css" href="/css/8.css" type="text/css" media="all">
     <link rel="stylesheet" id="dipi_general-css" href="/css/2.css" type="text/css" media="all">
     <link rel="stylesheet" id="wp-pagenavi-css" href="/css/9.css" media="all">
@@ -7190,11 +7190,11 @@ header.et-l--header .et_pb_menu__logo > img {
         </header>
 
 
-        <div class="ws-section-1" style="background-image: url('/img/razorpay1.jpg')">
+        <div class="ws-section-1" style="background-image: url('/img/weather.jpg')">
 
             <div class="ws-container-1">
 
-                <h1 class="ws-text-1">How to integrate razorpay with node js</h1>
+                <h1 class="ws-text-1">Create a weather app with flutter </h1>
                 <div class="ws-card-1">
                     <div class="ws-card-1-sidebar">
 
@@ -7208,7 +7208,7 @@ header.et-l--header .et_pb_menu__logo > img {
 
                             <a href="#">nerdwhocodes</a><br>
 
-                            Last Updated: February 22, 2022
+                            Last Updated: March 08, 2022
 
                             |
 
@@ -7239,9 +7239,7 @@ header.et-l--header .et_pb_menu__logo > img {
                         <div class="ws-wysiwyg-1">
                             <p dir="ltr">Considering the circumstances you’ve found yourself in, I think it’s probably
                                 best that—contrary to my typical style—I keep this introduction short and sweet.</p>
-                            <p>Razorpay is a popular payment gateway in India. It is used in e-commerce websites or any
-                                paid service. With few steps, you can start collecting money from your customers using
-                                this service.</p>
+                            <p>After a few moments, you will end up with a fully functional Flutter demo app that runs both on Android and iOS. Just choose the simulator or connected device from the devices dropdown and click on the run button.</p>
                             <!-- <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="4f30be6b-e17b-46ff-8bbe-7fd9e8cb8d48" data-langcode="en">
@@ -7252,134 +7250,98 @@ header.et-l--header .et_pb_menu__logo > img {
                                 </article>
                             </div> -->
 
-                            <h2 dir="ltr">RazorPay integration with Node.js</h2>
-                            <!-- <p dir="ltr">You can download an application called "Payzapp" from Playstore/Appstore and get a card that would work for AWS.</p>
-                            <h3 dir="ltr">The process to create a Payzapp card</h3>
+                            <h2 dir="ltr">Create a weather app with flutter</h2>
+                            <p dir="ltr">Here's a simple flowchart to make you understand what we'll be doint during this project.</p>
+                            <!-- <h3 dir="ltr">The process to create a Payzapp card</h3>
                             <p dir="ltr">(i) Click on Register</p> -->
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="d0332ace-a550-487d-b119-643645559fc4" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/razorpayworkflow.png" alt="img here" width="764"
+                                    <div><img loading="lazy" src="/img/weatherFlowchart.png" alt="img here" width="800"
                                             height="40"></div>
                                 </article>
                             </div>
-                            <h3 dir="ltr"> Step1. RazorPay account setup</h3>
-                            <p>Go to <a
-                                    href="https://dashboard.razorpay.com/signup">https://dashboard.razorpay.com/signup</a>
-                                and enter your email address & necessary information.</p>
+                            <h3 dir="ltr"> Step1. Create a material app</h3>
+                            <!-- <p>Go to 
+                                and enter your email address & necessary information.</p> -->
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="8ac3f2fb-aec7-4868-8689-2f8e5d1ceed3" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/razorpayAccount.png" alt="img here" width="764"
+                                    <div><img loading="lazy" src="/img/mainWeather.png" alt="img here" width="764"
                                             height="40"></div>
                                 </article>
                             </div>
 
-                            <p>It will ask you to complete KYC, although you can skip that part and you will still be
-                                able to access the test mode. You can activate your account by filling in the KYC form
-                                in the “My Account -> Profile ->Account Activation” section.</p>
-                            <p>To get the test keys go to Settings>API keys and then clikc on "Generate API keys" you
-                                can copy them and you can download them as .csv files and open it in ms excel (you
-                                should download them as this is last time you'll shown the keys)</p>
+                            <p><strong>create another dart file as "loading_screen" and import it in main.dart</strong> </p>
+                            <h3 dir="ltr">Install geolocator package </h3>
+                            <p>add a line like this to your package's pubspec.yaml</p>
+                            
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/razorpaytestkey.png"
+                                    <div><img loading="lazy" src="/img/pubWeather.png"
                                             alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
                                 </article>
                             </div>
-                            <h3 dir="ltr"> Step2. Node js setup</h3>
+                            <p> run pub get and import it in location screen</p>
                             <div class="npm" style="background-color:#EEEDDE; height: 11vh; color: #203239;">
 
-                                <p style="padding-top: 3vh; padding-left: 2vw;">npm i razorpay</p>
+                                <p style="padding-top: 3vh; padding-left: 2vw;">import 'package:geolocator/geolocator.dart';</p>
 
 
 
                             </div>
-                            <br>
-                            <br>
-                            <p>Create index.js file and create razorpay instance</p>
-
-                            <div class="npm" style="background-color:#EEEDDE; height: 34vh; color: #203239;">
-                                <div class="code" style="padding-top: 3vh; padding-left: 2vw;">
-                                    <p>let razorPayInstance = new Razorpay({
-                                    <p> key_id: 'YOUR_KEY_ID',</p>
-                                    <p> key_secret: 'YOUR_KEY_SECRET'</p>
-                                    });
-                                    </p>
-
-                                </div>
-                            </div>
-                            <br>
-                            <p><Strong>How the routes should be </Strong></p>
-                            <div class="npm" style="background-color:#EEEDDE; height: 25vh; color: #203239;">
-                                <div class="code" style="padding-top: 3vh; padding-left: 2vw; padding-right: 2vw;">
-                                    Recieve Order > Call ( order function from controller) > Checkout page > checkout
-                                    button invokes an event which takes you to razor payment portal > After completion
-                                    of transaction, verify payment method gets invokes > you land on payment successfull
-                                    page (if your payment was successfull).
-
-                                </div>
-                            </div>
-                            <br>
-                            <p><Strong>Order function code</Strong></p>
+                            <p style="color: black; font-weight: bold; padding-top: 20px;">PERMISSIONS</p>
+                            <p ><strong>On Android,</strong>  you'll need to add either the ACCESS_COARSE_LOCATION or the ACCESS_FINE_LOCATION permission to your Android Manifest. To do so open the AndroidManifest.xml file (located under android/app/src/main) and add one of the following two lines as direct children of the <strong>manifest</strong>  tag (when you configure both permissions the ACCESS_FINE_LOCATION will be used by the geolocator plugin): </p>
+                           
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/razorpaycode3.png"
+                                    <div><img loading="lazy" src="/img/permWeather.png"
+                                            alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
+                                </article>
+                            </div>
+                            <br>
+                            <br>
+                            <p><Strong>IOS</Strong></p>
+                            <p>On iOS you'll need to add the following entries to your Info.plist file (located under ios/Runner) in order to access the device's location. Simply open your Info.plist file and add the following (make sure you update the description so it is meaningfull in the context of your App):</p>
+
+                            <div class="embedded-entity align-center" data-embed-button="images"
+                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
+                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
+                                <article>
+                                    <div><img loading="lazy" src="/img/perm2Weather.png"
+                                            alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
+                                </article>
+                            </div>
+                            <br>
+                            <h3 dir="ltr">Get user's location using geolocator package</h3>
+                            <p><Strong>use the given function to get acess user's location  </Strong></p>
+                            <div class="embedded-entity align-center" data-embed-button="images"
+                            data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
+                            data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
+                            <article>
+                                <div><img loading="lazy" src="/img/geoWeather.png"
+                                        alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
+                            </article>
+                        </div>
+                            <br>
+                            <p><Strong>As of now, we only have latitude and longitude. We need the name of the city, for that we'll use <a href="https://openweathermap.org/">openWeathermap's</a>  free api</Strong></p>
+                            <div class="embedded-entity align-center" data-embed-button="images"
+                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
+                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
+                                <article>
+                                    <div><img loading="lazy" src="/img/weatherapi.png"
                                             alt="#" width="785" height="304"></div>
                                 </article>
                             </div>
-                            <!-- <div class="npm" style="background-color:#EEEDDE; height: 255vh; color: #203239;">
-                                <div class="code" style="padding-top: 3vh; padding-left: 2vw;">
-                                    <p>function(req, res, next) {</p>
-                                    <p> params = { amount: req.body.amount * 100,</p>
-                                    <p>currency: "INR",</p>
-                                    <p> receipt: nanoid(),</p>
-                                    <p>payment_capture: "1"</p>
-                                    <p> }</p>
-                                    <p>razorPayInstance.orders.create(params)</p>
-                                    <p>.then(async (response) => {</p>
-                                    <p>console.log(response);</p>
-                                    <p>const razorpayKeyId = process.env.KEY_ID</p>
-
-                                    <p> const paymentDetail = new PaymentDetail({</p>
-                                    <p> orderId: response.id,</p>
-                                    <p> receiptId: response.receipt,</p>
-                                    <p>amount: response.amount,</p>
-                                    <p>currency: response.currency,</p>
-                                    <p>createdAt: response.created_at,</p>
-                                    <p>status: response.status,</p>
-                                    <p> mobileNumber : req.body.mobileNumber</p>
-                                    <p> })</p>
-                                    <p>try {</p>
-
-                                    <p>await paymentDetail.save()</p>
-                                    <p> res.render('pages/payment/checkout', {</p>
-                                    <p> title: "Confirm Order",</p>
-                                    <p> razorpayKeyId: razorpayKeyId,</p>
-                                    <p>paymentDetail : paymentDetail</p>
-                                    <p> })</p>
-                                    <p> } catch (err) {</p>
-
-                                    <p> if (err) throw err;</p>
-                                    <p> }</p>
-                                    <p> }).catch((err) => {</p>
-
-                                    <p> if (err) throw err;</p>
-                                    <p> })</p>
-                                    <p> }</p>
-                                    </p>
-
-                                </div>
-                            </div> -->
-
-                            <br>
-                            <p><strong>checkout page code</strong></p>
+                            <p>we'll get information about that city in json format, we'll use json decode to decode it....and now here we go, we have the city name and we may use it at desited place</p>
+                                     <br>
+                            <!-- <p><strong>checkout page code</strong></p>
                             <div class="npm" style="background-color:#EEEDDE; height: 22vh; color: #203239;">
                                 <div class="code" style="padding-top: 3vh; padding-left: 2vw;">
                                     <p>add a script tag to checkout page : </p>
@@ -7389,8 +7351,8 @@ header.et-l--header .et_pb_menu__logo > img {
 
 
                                 </div>
-                            </div>
-                            <br>
+                            </div> -->
+                            <!-- <br>
                             <p><strong>code of the function trigger by checkout button</strong></p>
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
@@ -7401,8 +7363,8 @@ header.et-l--header .et_pb_menu__logo > img {
                                 </article>
                             </div>
                            <br>
-                           <p>Last step is to verify the payment</p>
-                           <div class="embedded-entity align-center" data-embed-button="images"
+                           <p>Last step is to verify the payment</p> -->
+                           <!-- <div class="embedded-entity align-center" data-embed-button="images"
                            data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                            data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
                            <article>
@@ -7415,7 +7377,7 @@ header.et-l--header .et_pb_menu__logo > img {
                                You can checkout the my <a href="https://github.com/Cold-fish78/razorPayNode.jsIntegration.git">git repo</a> for razorpay node js integration and run it on your computer to get a clear idea. 
                            </p>
                            <p><a href="https://github.com/Cold-fish78/razorPayNode.jsIntegration.git">https://github.com/Cold-fish78/razorPayNode.jsIntegration.git</a></p>
-                       </div>
+                       </div> -->
                             <!-- <h2 dir="ltr">heading here</h2>
                             <p dir="ltr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, magni.</p>
 
@@ -7477,16 +7439,15 @@ header.et-l--header .et_pb_menu__logo > img {
 
                             <li class="ws-list-2-item">
 
-                                <a class="ws-card-13" href="#">
+                                <a class="ws-card-13" href="/post/razorpay-nodejs-integration">
                                     <div class="ws-card-13-body">
 
-                                        <img class="ws-img-11" src="/img/2.png" alt="image here">
+                                        <img class="ws-img-11" src="/img/razorpay2.png" alt="image here">
                                     </div>
                                     <div class="ws-card-13-overlay">
 
-                                        <h3 class="ws-text-25">title here</h3>
-                                        <p class="ws-text-26">There are no magic wands in life, but this guide just may
-                                            be the closest thing to it.</p>
+                                        <h3 class="ws-text-25">Integrate razorpay with node js</h3>
+                                        <p class="ws-text-26">learn how to integrate Razorpay with node js with help of required code and diagrams</p>
                                         <div class="ws-btn-container-2">
 
                                             <div class="ws-btn-12">
@@ -7588,7 +7549,7 @@ header.et-l--header .et_pb_menu__logo > img {
                     <div class="ws-col-2">
                         <div class="ws-sidebar-1">
                             <div id="media_image-10" class="et_pb_widget widget_media_image"><a href="#"><img
-                                        width="980" height="1416" src="/img/2.png"
+                                        width="980" height="1416" src="/img/weatherovu.jpg"
                                         class="image wp-image-51065  attachment-full size-full" alt="img" loading="lazy"
                                         style="max-width: 100%; height: auto;"
                                         sizes="(max-width: 980px) 100vw, 980px"></a></div>
