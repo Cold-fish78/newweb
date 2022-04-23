@@ -10,3 +10,7 @@ module.exports.blogpost2 = function(req,res){
 module.exports.blogpost3 = function(req,res){
     return res.render('weatherApp',{ title : 'create weather app with flutter'});
 }
+
+module.exports.blogpost4 = function(req,res){
+    return res.render('expandingCards',{title : 'create beautiful expanding cards with html, css and javascript'})
+}
