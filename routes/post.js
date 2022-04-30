@@ -6,5 +6,6 @@ router.get('/search',postController.search);
 router.get('/razorpay-nodejs-integration',postController.blogpost2);
 router.get('/flutter-weather-app',postController.blogpost3);
 router.get('/create-beautiful-expanding-cards',postController.blogpost4);
+router.get('/expandingCardsExample',postController.blogpost4_1);
 
 module.exports = router;

@@ -14,3 +14,6 @@ module.exports.blogpost3 = function(req,res){
 module.exports.blogpost4 = function(req,res){
     return res.render('expandingCards',{title : 'create beautiful expanding cards with html, css and javascript'})
 }
+module.exports.blogpost4_1 = function(req,res){
+    return res.render('expandingCardsExample',{title : "an overview of what we'll be trying to achieve"})
+}

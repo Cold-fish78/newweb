@@ -7190,11 +7190,11 @@ header.et-l--header .et_pb_menu__logo > img {
         </header>
 
 
-        <div class="ws-section-1" style="background-image: url('/img/weather.jpg')">
+        <div class="ws-section-1" style="background-image: url('/img/expandingcardsMain.png')">
 
             <div class="ws-container-1">
 
-                <h1 class="ws-text-1">Create a weather app with flutter </h1>
+                <h1 class="ws-text-1">Create beautiful expanding cards </h1>
                 <div class="ws-card-1">
                     <div class="ws-card-1-sidebar">
 
@@ -7238,7 +7238,7 @@ header.et-l--header .et_pb_menu__logo > img {
                         <div class="ws-wysiwyg-1">
                             <p dir="ltr">Considering the circumstances you’ve found yourself in, I think it’s probably
                                 best that—contrary to my typical style—I keep this introduction short and sweet.</p>
-                            <p>After a few moments, you will end up with a fully functional Flutter demo app that runs both on Android and iOS. Just choose the simulator or connected device from the devices dropdown and click on the run button.</p>
+                          
                             <!-- <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="4f30be6b-e17b-46ff-8bbe-7fd9e8cb8d48" data-langcode="en">
@@ -7248,98 +7248,69 @@ header.et-l--header .et_pb_menu__logo > img {
                                             alt="/img/logo2.png" width="728" height="379"></div>
                                 </article>
                             </div> -->
+                           <p> <strong>This is what we will be trying to achive throughout this module</strong></p>
+                           <p><a href="/post/expandingCardsExample">Click here to check out</a></p>
 
-                            <h2 dir="ltr">Create beautiful expanding cards</h2>
-                            <p dir="ltr">Here's a simple demonstration to make you understand what we'll be doint during this project.</p>
+                           <p>Now, let's begin</p>
+                            <h2 dir="ltr">1. create a html file</h2>
+                         
+                            <p>2. Create a div</p>
+                            <p dir="ltr">3. assign it a class let's say "containerexp".</p>
+                            <p>4. create four divs inside that div, assign them a class as panel . </p>
+                            <p>5. add class "active" to first one of four divs. As the first card should be already active and we'll switch the state by clicking on any particular div.</p>
+                            <p>6. add any background image to each div</p>
+                            <p>7. add a h3 heading to each div</p>
+                            <br>
+                            <p>That's how you html code should look like :</p>
                             <!-- <h3 dir="ltr">The process to create a Payzapp card</h3>
                             <p dir="ltr">(i) Click on Register</p> -->
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="d0332ace-a550-487d-b119-643645559fc4" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/weatherFlowchart.png" alt="img here" width="800"
+                                    <div><img loading="lazy" src="/img/expandingcard1.png" alt="img here" width="800"
                                             height="40"></div>
                                 </article>
                             </div>
-                            <h3 dir="ltr"> Step1. Create a div and give it a class named "container"</h3>
-                            <!-- <p>Go to 
-                                and enter your email address & necessary information.</p> -->
+                            <h3 dir="ltr">Create a css file</h3>
+                            <p>We'll keep a panel active and other panels as inactive by defualt. The active panel's width will be greater than other panels and height will be same for all panels. </p>
+                            <p>css for panel class</p>
+                            <div class="embedded-entity align-center" data-embed-button="images"
+                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
+                                data-entity-uuid="d0332ace-a550-487d-b119-643645559fc4" data-langcode="en">
+                                <article>
+                                    <div><img loading="lazy" src="/img/expandingcard3.png" alt="img here" width="800"
+                                            height="40"></div>
+                                </article>
+                            </div>
+
+                            <p>css for active panel class</p>
+                            <div class="embedded-entity align-center" data-embed-button="images"
+                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
+                                data-entity-uuid="d0332ace-a550-487d-b119-643645559fc4" data-langcode="en">
+                                <article>
+                                    <div><img loading="lazy" src="/img/expandingcard4.png" alt="img here" width="800"
+                                            height="40"></div>
+                                </article>
+                            </div>
+                            
+                            <h3 dir="ltr">Create a java file</h3>
+                           <p>The main motive behind creating a java file is to add "active" class to the panel which was clicked and remove the "active" class from previous class which was active.</p>
                             <div class="embedded-entity align-center" data-embed-button="images"
                                 data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
                                 data-entity-uuid="8ac3f2fb-aec7-4868-8689-2f8e5d1ceed3" data-langcode="en">
                                 <article>
-                                    <div><img loading="lazy" src="/img/mainWeather.png" alt="img here" width="764"
+                                    <div><img loading="lazy" src="/img/expandingcard2.png" alt="img here" width="764"
                                             height="40"></div>
                                 </article>
                             </div>
-
-                            <p><strong>create another dart file as "loading_screen" and import it in main.dart</strong> </p>
-                            <h3 dir="ltr">Install geolocator package </h3>
-                            <p>add a line like this to your package's pubspec.yaml</p>
+                             
+                            <p><strong> finally, import javascript and css files into the index.html file.</strong></p>
+                            <br>
+                            <p>That's all from my side, you make optimize the code, update the styling to make it look more fancy.</p>
+                            <p>I've included the complete repository link,<a href="https://github.com/Cold-fish78/Expanding_cards">click here</a></p>
                             
-                            <div class="embedded-entity align-center" data-embed-button="images"
-                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
-                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
-                                <article>
-                                    <div><img loading="lazy" src="/img/pubWeather.png"
-                                            alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
-                                </article>
-                            </div>
-                            <p> run pub get and import it in location screen</p>
-                            <div class="npm" style="background-color:#EEEDDE; height: 11vh; color: #203239;">
-
-                                <p style="padding-top: 3vh; padding-left: 2vw;">import 'package:geolocator/geolocator.dart';</p>
-
-
-
-                            </div>
-                            <p style="color: black; font-weight: bold; padding-top: 20px;">PERMISSIONS</p>
-                            <p ><strong>On Android,</strong>  you'll need to add either the ACCESS_COARSE_LOCATION or the ACCESS_FINE_LOCATION permission to your Android Manifest. To do so open the AndroidManifest.xml file (located under android/app/src/main) and add one of the following two lines as direct children of the <strong>manifest</strong>  tag (when you configure both permissions the ACCESS_FINE_LOCATION will be used by the geolocator plugin): </p>
-                           
-                            <div class="embedded-entity align-center" data-embed-button="images"
-                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
-                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
-                                <article>
-                                    <div><img loading="lazy" src="/img/permWeather.png"
-                                            alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
-                                </article>
-                            </div>
-                            <br>
-                            <br>
-                            <p><Strong>IOS</Strong></p>
-                            <p>On iOS you'll need to add the following entries to your Info.plist file (located under ios/Runner) in order to access the device's location. Simply open your Info.plist file and add the following (make sure you update the description so it is meaningfull in the context of your App):</p>
-
-                            <div class="embedded-entity align-center" data-embed-button="images"
-                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
-                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
-                                <article>
-                                    <div><img loading="lazy" src="/img/perm2Weather.png"
-                                            alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
-                                </article>
-                            </div>
-                            <br>
-                            <h3 dir="ltr">Get user's location using geolocator package</h3>
-                            <p><Strong>use the given function to get acess user's location  </Strong></p>
-                            <div class="embedded-entity align-center" data-embed-button="images"
-                            data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
-                            data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
-                            <article>
-                                <div><img loading="lazy" src="/img/geoWeather.png"
-                                        alt="google-ads-not-showing-ad-schedule-tab" width="785" height="304"></div>
-                            </article>
-                        </div>
-                            <br>
-                            <p><Strong>As of now, we only have latitude and longitude. We need the name of the city, for that we'll use <a href="https://openweathermap.org/">openWeathermap's</a>  free api</Strong></p>
-                            <div class="embedded-entity align-center" data-embed-button="images"
-                                data-entity-embed-display="view_mode:media.simple_image" data-entity-type="media"
-                                data-entity-uuid="4b715ae0-a765-48f8-bb60-7b0c6b992908" data-langcode="en">
-                                <article>
-                                    <div><img loading="lazy" src="/img/weatherapi.png"
-                                            alt="#" width="785" height="304"></div>
-                                </article>
-                            </div>
-                            <p>we'll get information about that city in json format, we'll use json decode to decode it....and now here we go, we have the city name and we may use it at desited place</p>
-                                     <br>
+                      
                             <!-- <p><strong>checkout page code</strong></p>
                             <div class="npm" style="background-color:#EEEDDE; height: 22vh; color: #203239;">
                                 <div class="code" style="padding-top: 3vh; padding-left: 2vw;">
@@ -7548,7 +7519,7 @@ header.et-l--header .et_pb_menu__logo > img {
                     <div class="ws-col-2">
                         <div class="ws-sidebar-1">
                             <div id="media_image-10" class="et_pb_widget widget_media_image"><a href="#"><img
-                                        width="980" height="1416" src="/img/weatherovu.jpg"
+                                        width="980" height="1416" src="/img/expandingcard.png"
                                         class="image wp-image-51065  attachment-full size-full" alt="img" loading="lazy"
                                         style="max-width: 100%; height: auto;"
                                         sizes="(max-width: 980px) 100vw, 980px"></a></div>
