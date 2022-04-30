@@ -15,6 +15,7 @@ app.get('/robot.txt',function(req,res){
         root: path.join(__dirname , )
     };
      
+    
     var fileName = 'robot.txt';
     res.sendFile(fileName, options, function (err) {
         if (err) {
