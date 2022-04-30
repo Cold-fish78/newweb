@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8001;
+const port = 8000;
 app.use(express.urlencoded({extended : true}));
 
 require("dotenv").config();
@@ -15,7 +15,7 @@ app.get('/robot.txt',function(req,res){
         root: path.join(__dirname , )
     };
      
-    
+
     var fileName = 'robot.txt';
     res.sendFile(fileName, options, function (err) {
         if (err) {
