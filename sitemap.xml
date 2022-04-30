@@ -9,23 +9,33 @@
 
 <url>
   <loc>https://nerdwhocodes.com/</loc>
-  <lastmod>2022-03-13T20:23:49+00:00</lastmod>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://nerdwhocodes.com/post/aws-not-accepting-debit-credit-card</loc>
-  <lastmod>2022-03-13T20:23:49+00:00</lastmod>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nerdwhocodes.com/post/razorpay-nodejs-integration</loc>
-  <lastmod>2022-03-13T20:23:49+00:00</lastmod>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://nerdwhocodes.com/post/flutter-weather-app</loc>
-  <lastmod>2022-03-13T20:23:49+00:00</lastmod>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nerdwhocodes.com/post/create-beautiful-expanding-cards</loc>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://nerdwhocodes.com/post/expandingCardsExample</loc>
+  <lastmod>2022-04-30T09:17:51+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
